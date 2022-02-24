@@ -1,0 +1,5 @@
+.header-lower {
+	display: grid;
+	grid-template-columns: 100px 200px repeat(3,80px);
+	align-items: center;
+}
