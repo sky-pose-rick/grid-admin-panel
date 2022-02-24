@@ -1,0 +1,36 @@
+nav>div{
+  display: grid;
+	align-content: baseline;
+	color: white;
+  padding: 20px 10px;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+
+nav a {
+	color: white;
+	text-decoration-line: none;
+	display: grid;
+	grid-template-columns: 50px auto;
+	align-items: center;
+  width: max-content;
+  column-gap: 10px;
+  font-weight: bold;
+}
+
+nav .push {
+	margin-top: 50px;
+}
+
+nav svg {
+	margin: auto;
+}
+
+nav a:first-child {
+	font-size: 1.3em;
+}
+
+nav a:first-child svg {
+	width: 1.5em;
+	height: 1.5em;
+}
