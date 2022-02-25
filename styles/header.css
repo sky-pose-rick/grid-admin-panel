@@ -28,8 +28,40 @@ header input[type="text"]:focus-visible {
 	padding: 10px 0px;
 }
 
+.header-upper span:last-child {
+	font-weight: bold;
+}
+
 .header-lower {
 	display: grid;
-	grid-template-columns: 100px 200px repeat(3,80px);
+	grid-template-columns: 100px auto repeat(3,125px);
 	align-items: center;
+	font-weight: bold;
+	column-gap: 15px;
+	margin: 10px 40px 10px 20px;
+}
+
+.icon-medium {
+	justify-self: center;
+	border-radius: 50%;
+	height: 75px;
+	padding: 10px 0px;
+}
+
+.header-lower > :nth-child(2) {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+.header-name {
+	font-size: 1.5em;
+}
+
+.blue-button {
+	color: white;
+	background-color: #2591ce;
+	border-radius: 2em;
+	text-align: center;
+	padding: 0.75em 0;
+	margin: 0 0.5em;
 }
