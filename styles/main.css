@@ -1,0 +1,16 @@
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+	background-color: aqua;
+	margin-top: 40px;
+}
+
+.projects {
+	grid-row: 1/3;
+}
+
+
+

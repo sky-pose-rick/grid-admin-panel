@@ -53,8 +53,10 @@ header input[type="text"]:focus-visible {
 	grid-template-rows: 1fr 1fr;
 }
 
-.header-name {
+h1 {
 	font-size: 1.5em;
+  padding: 0;
+  margin: 0;
 }
 
 .blue-button {
