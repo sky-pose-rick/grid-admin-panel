@@ -1,3 +1,33 @@
+.header-upper {
+	display: grid;
+	grid-template-columns: 25px 4fr 25px 60px 1fr;
+	align-items: center;
+	justify-items: flex-start;
+	margin-left: 20px;
+  column-gap: 15px;
+	color: black;
+}
+
+header input[type="text"] {
+	width: 75%;
+	background-color: #e1e7ef;
+	border: none;
+	height: 2em;
+	border-radius: 1em;
+	padding: 0px 10px;
+}
+
+header input[type="text"]:focus-visible {
+	outline: ridge 1px orange;
+}
+
+.icon-small {
+	justify-self: center;
+	border-radius: 50%;
+	height: 50px;
+	padding: 10px 0px;
+}
+
 .header-lower {
 	display: grid;
 	grid-template-columns: 100px 200px repeat(3,80px);
