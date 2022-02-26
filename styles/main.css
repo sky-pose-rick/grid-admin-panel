@@ -84,5 +84,33 @@ section:first-child {
 	border-bottom: none;
 }
 
+.users {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr afr;
+	background-color: white;
+	box-shadow: #cbd0d6 4px 4px 2px;
+	border-radius: 5px;
+	padding: 20px 20px;
+	align-content: center;
+	row-gap: 10px;
+}
+
+.user {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	column-gap: 20px;
+}
+
+.user > div {
+	display: grid;
+	grid-template-rows: auto auto;
+	row-gap: 5px;
+}
+
+.user span:last-child{
+  color: #636363;
+}
+
 
 
